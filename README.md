@@ -1,2 +1,4 @@
 # coffee-aroma
-This ia a coffee shop I'm making. It is a simple website for a great coffee shop named Coffee Aroma.
+Coffee Aroma coffee shop website. No user interactivity but it looks nice.
+
+All images from pexels

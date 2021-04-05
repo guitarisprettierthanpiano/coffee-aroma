@@ -1,4 +1,4 @@
-/* this design is losely based off of 
+/* this page design is losely based off of 
 https://cdn.cp.adobe.io/content/2/rendition/10b767ad-f907-4a60-9a5c-97a5bfeae5c2/artwork/ca653153-a4e3-4d55-9929-42424d5ca9ac/version/0/format/jpg/dimension/width/size/300
 */
 
@@ -100,10 +100,10 @@ h1{
     height: 75px;
     
     grid-column: 1;
-    grid-row: 1 / span 2;
+    grid-row: 1 /  2;
 
-    margin: 44px;
-    padding: 0 10px 20px 0;
+    margin: 74px;
+    padding: 0 10px 80px 0;
     
     border-right: double 8px #EADDC4;
     border-bottom: double 8px #EADDC4; 
@@ -176,6 +176,11 @@ li{
     border-radius: 25px;
 
     background-color: black;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 .pic_mid_right{
     grid-row: 3;
@@ -188,6 +193,11 @@ li{
     background-color: black;
 
     box-shadow: 8px 8px black;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 /* FOOTER */
