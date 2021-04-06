@@ -3,7 +3,7 @@ https://cdn.cp.adobe.io/content/2/rendition/10b767ad-f907-4a60-9a5c-97a5bfeae5c2
 */
 
 body{
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(0, 0, 0, 0.986);
     color:cornsilk;
 
     margin: 0;
@@ -11,6 +11,9 @@ body{
       
     box-sizing: border-box;
     font-family: verdana, sans-serif;
+
+
+
 }
 *{
     font-family: inherit;
@@ -58,9 +61,12 @@ li a:active{
     transform: translateY(1px);
 }
 li a:hover{
-    transition: all .1s;
-    letter-spacing: 4px;
-    background-color: rgba(0, 0, 0, 0.459);
+    transition: all .05s;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+    border: solid 2px #EADDC4;
+    background-color: rgba(0, 0, 0, 0.815);
 }
 li a{
   color: white;
@@ -131,8 +137,6 @@ li a{
     position: relative;
     bottom: 15px;
     right: 100px;
-
-    background-image: url('images/transcoffee1.png');
 }
 
 /* PASTRIES */
@@ -141,21 +145,25 @@ li a{
     grid-column: 2;
 
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 80px auto;
     grid-template-rows: auto auto;
 
-    justify-content: center;
-}
+    justify-content: start;
 
-/* h2s AND uls */
-.pastries h2, .coffee h2, .tea h2{
+    
+    margin-bottom: 26px;
+    margin-left: 14px;
+}
+.pastries h2{
     grid-column: 1 / 2;
     grid-row: 1;
     
     position: relative;
     bottom: -40px;
-    right: -124px;
+    right: -25px;
 }
+
+/* h2s AND uls */
 .pastries .ul1, .coffee .ul1, .tea .ul1{
     grid-column: 1;
     grid-row: 2;
@@ -172,8 +180,20 @@ li a{
 
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: 80px auto;
 
+    justify-content: end;;
+    margin-right: 44px;
+    margin-bottom: 22px;
+
+
+}
+.coffee h2{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    
+    position: relative;
+    left: 100px;
 }
 
 /* TEA */
@@ -182,9 +202,21 @@ li a{
     grid-column: 2;
 
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 80px auto;
+    grid-template-rows: 70px auto;
 
+    align-content: center;
+
+    margin-bottom: 26px;
+    margin-left: 14px;
+
+}
+.tea h2{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    
+    position: relative;
+    right: -62px;
 }
 
 .h2 {
@@ -240,6 +272,8 @@ li{
         radial-gradient(black 15%, transparent 20%) 8px 9px;
     background-color:#000000;
     background-size:16px 16px;
+
+    border-left: double 4px #EADDC4;
 }
 
 /*PIC MID RIGHT */
@@ -266,6 +300,9 @@ li{
         radial-gradient(black 15%, transparent 20%) 8px 9px;
     background-color:#000000;
     background-size:16px 16px;
+
+    border-right: double 4px #EADDC4;
+    
 }
 
 /* FOOTER */
@@ -280,6 +317,9 @@ li{
 
     
     border-top: double 8px #EADDC4;
+
+    
+    padding-bottom: 4px;
 }
 /* IMAGES */
 img{
